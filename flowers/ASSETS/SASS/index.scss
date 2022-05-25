@@ -1,0 +1,121 @@
+.logo {
+  img {
+    width: 200px;
+  }
+}
+.logo-menu {
+  padding-top: 3%;
+}
+.dropbtn {
+  background-color: #ffffff;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content {
+  a:hover {
+    background-color: #ddd;
+  }
+}
+.dropdown:hover {
+  .dropdown-content {
+    display: block;
+  }
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+.bi-search:hover {
+  color: red;
+}
+.bi-search {
+  color: black;
+}
+.card{
+  margin-bottom:13%;
+}
+
+.logo-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+//section 1
+
+.inner {
+  height: 100vh;
+  align-items: center;
+  z-index: 2;
+  padding-left: 11%;
+  h2{
+    padding-top: 20%;
+  font-size: 60px;
+font-weight: 400;}
+  span{
+  color:red;
+      }
+  p{
+    font-size:20px;
+    color:rgb(78, 74, 74);
+    font-weight: 350;
+    margin-top: 20px;
+  }
+  img{
+    padding-top: 5%;
+  }
+}
+.myContainer1{
+  padding: 0 11%;
+}
+.card{
+  overflow: hidden;
+  transition: all 1s ease;
+  .card-image{
+    overflow: hidden;
+    img{
+    max-width: 100%;
+    height: auto;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+}
+    
+
+}
+.card-body{
+  margin-top: 10px;
+}
+
+//flower-items sectiomn
+.flower-categories{
+  li{
+    margin-right :35px;
+  }
+}
+
+.active{
+  color: red;
+}
